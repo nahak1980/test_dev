@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8"></meta>
+  <title th:text="${title}">My PDF Document</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    /* Add any custom styles for your PDF here */
+  </style>
+</head>
+<body>
+  <h1 th:text="${title}">My PDF Document</h1>
+  <p th:text="${content}">This is the content of my PDF document.</p>
+</body>
+</html>

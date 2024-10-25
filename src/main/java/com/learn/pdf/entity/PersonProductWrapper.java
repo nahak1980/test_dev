@@ -1,0 +1,13 @@
+package com.learn.pdf.entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class PersonProductWrapper {
+	private Person person;
+	private Product product;
+}
